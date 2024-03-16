@@ -1,0 +1,4 @@
+features to be added
+
+swap language
+after typing we can also listen the audio
