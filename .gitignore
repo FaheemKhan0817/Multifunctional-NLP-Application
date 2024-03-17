@@ -119,6 +119,9 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
+# Ignore screenshot image
+Project.png
+
 # Environments
 .myenv
 .env

@@ -42,3 +42,8 @@ Contributions are welcome! If you have any ideas for improvement or new features
 ## License
 
 This project is licensed under the MIT License.
+
+## Screenshot
+
+![Screenshot](Project.png)
+
