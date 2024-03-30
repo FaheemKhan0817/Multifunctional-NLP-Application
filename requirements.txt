@@ -62,7 +62,6 @@ python-dateutil==2.8.2
 python-dotenv==1.0.1
 pyttsx3==2.90
 pytz==2024.1
-pywin32
 PyYAML==6.0.1
 rake-nltk==1.0.6
 referencing==0.33.0

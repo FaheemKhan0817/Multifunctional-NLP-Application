@@ -73,9 +73,19 @@ def main_process(output_placeholder, from_language, to_language):
 st.title("Multifunctional NLP Application")
 
 # Sidebar for choosing functionality
-selected_functionality = st.sidebar.radio("Select Functionality:", ["Translation", "Summarization", "Keyword Extraction"])
+selected_functionality = st.sidebar.radio("Select Functionality:", ["Select Below any Functionality", "Translation", "Summarization", "Keyword Extraction"])
 
-if selected_functionality == "Translation":
+if selected_functionality == "Select Below any Functionality":
+    # Add feature headings
+    st.header("Features:")
+    st.subheader("1. Translation")
+    st.write("Translate text between different languages.")
+    st.subheader("2. Summarization")
+    st.write("Generate concise summaries of text documents.")
+    st.subheader("3. Keyword Extraction")
+    st.write("Extract keywords or key phrases from text.")
+
+elif selected_functionality == "Translation":
     st.title("Language Translator")
     # Dropdowns for selecting languages
     from_language_name = st.selectbox("Select Source Language:", list(LANGUAGES.values()))
